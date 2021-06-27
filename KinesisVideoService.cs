@@ -1,18 +1,16 @@
-﻿using Amazon.KinesisVideo;
+h﻿using Amazon.KinesisVideo;
 using Amazon.KinesisVideo.Model;
 using Amazon.KinesisVideoSignalingChannels;
 using Amazon.KinesisVideoSignalingChannels.Model;
 using Amazon.SimpleNotificationService;
 using Amazon.SimpleNotificationService.Model;
 using Microsoft.Extensions.Options;
-using PracticeInsights.Cloud.PatientChart.Api.Models;
-using PracticeInsights.Cloud.PatientChart.Api.Models.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PracticeInsights.Cloud.PatientChart.Api.Services
+namespace TechSivaram.Services
 {
     public class KinesisVideoService : BaseService
     {
