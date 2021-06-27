@@ -55,7 +55,7 @@ namespace PracticeInsights.Cloud.PatientChart.Api.Services
 
             PublishRequest pubRequest = new PublishRequest();
 
-            pubRequest.MessageAttributes["AWS.SNS.SMS.SenderID"] = new MessageAttributeValue { StringValue = "MYNA", DataType = "String" };
+            pubRequest.MessageAttributes["AWS.SNS.SMS.SenderID"] = new MessageAttributeValue { StringValue = "Sivaram", DataType = "String" };
             pubRequest.MessageAttributes["AWS.SNS.SMS.SMSType"] = new MessageAttributeValue { StringValue = "Transactional", DataType = "String" };
             pubRequest.Message = invite.Message;
             pubRequest.PhoneNumber = "+1" + invite.PhoneNumber;
